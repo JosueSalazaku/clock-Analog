@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43,43,43);
+}
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: solid 5px blue;
+    position: absolute;
+}
+
+#seconds-hands {
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    background-color: cyan;
+    right: 150px;
+}
