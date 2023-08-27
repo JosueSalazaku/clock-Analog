@@ -22,6 +22,7 @@ body {
     right: 149px;
     bottom: 149px;
     opacity: 50%;
+    transform-origin: 0% 100%;
 }
 
 #minutes-hands {
@@ -31,13 +32,15 @@ body {
     position: absolute;
     left: 149px;
     bottom: 149px;
+    transform-origin: 0% 100%;
 }
 
 #hours-hands {
     height: 80px;
-    width: 4px;
+    width: 3px;
     background-color: red;
     position: absolute;
     left: 148px;
     bottom: 148px;
+    transform-origin: 0% 100%;
 }
